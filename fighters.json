@@ -1,0 +1,29 @@
+{
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "columns": 18,
+  "players": 20,
+  "actions": {
+    "running": {
+      "start": 0,
+      "frames": 3
+    },
+    "blocking": {
+      "start": 3,
+      "frames": 3
+    },
+    "punching": {
+      "start": 6,
+      "frames": 3
+    },
+    "powerful": {
+      "start": 9,
+      "frames": 6
+    },
+    "jump": {
+      "start": 15,
+      "frames": 3
+    }
+  },
+  "note": "20 player variants, 360 frames. All face right. Use nearest-neighbour scaling."
+}
